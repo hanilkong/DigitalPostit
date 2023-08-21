@@ -56,6 +56,8 @@ export const FlexColContainer = styled.div`
 export const StyledTypography = styled.p<IStyledTypography>`
   font-size: ${({ fontSize }) => fontSize}px;
   color: ${({ color }) => color};
+  margin: 0;
+  white-space: nowrap;
 `;
 export const Typography = React.memo((props: PropsI) => {
   const { size, color, ...rest } = props;
