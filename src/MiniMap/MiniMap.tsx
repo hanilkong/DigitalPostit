@@ -6,7 +6,7 @@ import {
   MiniMapMain,
   MiniMapViewport,
 } from ".";
-import { throttle } from "./common";
+import { throttle } from "../common";
 
 interface PropsI extends React.HTMLAttributes<HTMLDivElement> {
   width?: number;

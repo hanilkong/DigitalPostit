@@ -13,6 +13,7 @@ export const PostItItem = styled.div<PropsT>`
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
   outline: ${({ isSelect }) => (isSelect === true ? `1px solid ${error}` : 0)};
   border: ${({ isPreview }) =>
     isPreview === true ? 0 : `1px solid ${ongoing2}`};

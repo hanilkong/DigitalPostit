@@ -181,7 +181,7 @@ export const PostitItemList: React.FC<PropsI> = React.memo((props: PropsI) => {
                   key={colIndex}
                   isSelect={isSelectPostit(rowIndex, colIndex)}
                   onClick={() => onPostItSelectHandle(rowIndex, colIndex)}
-                  seletedMode={colItem.selectMode}
+                  selectedMode={colItem.selectMode}
                   isPreview={isPreview}
                   color={postitColor(colItem.postitColor, colItem.selectMode)}
                 >
