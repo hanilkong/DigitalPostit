@@ -3,4 +3,4 @@
 - click the item below
 
 ### example
-https://codesandbox.io/p/sandbox/adoring-phoebe-mzjqps
+https://codesandbox.io/p/sandbox/mini-map-mzjqps?file=/src/App.tsx:1,1
